@@ -1,5 +1,3 @@
-// Author : The Mufid
-
 <template>
   <div id="login">
     <main>

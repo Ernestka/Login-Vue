@@ -1,9 +1,5 @@
-// Author : The Mufid
-// Description : Login Form
-
 <template>
   <div class="main" :style="mainStyle">
-    <h2>Welcome to Login Form!</h2>
     <input
       type="text"
       name="username"
@@ -25,11 +21,7 @@
       id="done"
       :style="inputStyle" />
     <br />
-    <img src="../assets/google.svg" href="#" alt="Google" />
-    <img src="../assets/twitter.svg" href="#" alt="Twitter" />
-    <img src="../assets/instagram.svg" href="#" alt="Instagram" />
-    <img src="../assets/LinkedIn.svg" href="#" alt="LinkedIn" />
-    <img src="../assets/github.svg" href="#" alt="Github" />
+   
   </div>
 </template>
 
@@ -88,6 +80,7 @@ input:active {
 .button {
   cursor: pointer;
   user-select: none;
+  
 }
 img {
   height: 2.2rem;
